@@ -6,7 +6,7 @@
 body {
   overflow: hidden;
   font-family: 'Maven Pro', sans-serif;
-  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 a {
   color: #01579b;
