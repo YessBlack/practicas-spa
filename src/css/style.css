@@ -1,0 +1,81 @@
+*,*::after,*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  font-family: 'Maven Pro', sans-serif;
+}
+a {
+  color: #01579b;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #dc3545;
+}
+h1 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.loader {
+  margin: 1rem auto;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+.error {
+  background-color: #f44336;
+  padding: 1rem;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.header {
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: #fff;
+}
+.header > * {
+  margin: 1rem auto
+}
+.form-search {
+  margin: auto;
+  text-align: center;
+}
+.form-search input {
+  display: block;
+  margin: auto;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+.post-card {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+}
+.post-card h2 {
+  font-size: 1.2rem;
+}
+.post-card p {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.grid-fluid {
+  margin: 1rem auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
