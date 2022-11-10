@@ -6,6 +6,7 @@ export const SearchForm = () => {
   $input.type = "search"
   $input.name = "search"
   $input.placeholder = "Buscar..."
+  
   $form.appendChild($input)
   return $form
 }
